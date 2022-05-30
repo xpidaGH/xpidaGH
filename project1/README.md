@@ -149,6 +149,8 @@ clientId:
 
 # Arabic ar
 
+# قوالب المتعلمين: قوالب هذا الموقع في عشرين لغات - الإنجليزية، العربية، البنغالية، الصينية، الهولندية، الفرنسية، الألمانية، الهندية، الإندونيسية، الإيطالية، اليابانية، ماراثي، البرتغالية، الروسية، الإسبانية، السواحلية، تاميل، التيلجو، التركية، الأردية.
+
 # الهدف هو بناء عدد من تطبيقات الجوال وسطح المكتب والويب باستخدام ReactJS و React Native و Python. يستخدم تطبيق الويب هذا Django و React مع typescript و Tailwind CSS. وسوف تشمل ما يلي:
 
 # تطبيق محفظة
@@ -292,6 +294,8 @@ clientId:
 };
 
 # Bengali bn
+
+# শিক্ষার্থীদের টেমপ্লেট: এই ওয়েবসাইটের টেমপ্লেট বিশাল ভাষায় - ইংরেজি, আরবি, বাংলা, চীনা, ডাচ, ফ্রেঞ্চ, জার্মান, হিন্দি, ইন্দোনেশিয়ান, ইতালীয়, জাপানিজ, মারাঠি, পর্তুগিজ, রাশিয়ান, স্প্যানিশ, সোয়াহিলি, তামিল, তেলেগু, তুর্কি, উর্দু।
 
 # এর উদ্দেশ্য হল ReactJS, React Native এবং Python এর সাথে বেশ কয়েকটি মোবাইল, ডেস্কটপ এবং ওয়েব অ্যাপস তৈরি করা। এই ওয়েবঅ্যাপটি টাইপস্ক্রিপ্ট এবং টেইলউইন্ড সিএসএস সহ Django এবং React ব্যবহার করে। এর মধ্যে অন্তর্ভুক্ত থাকবে:
 
@@ -437,6 +441,8 @@ clientId:
 
 # Chinese zh
 
+# 学习者模板：网站的二维语言模板 - 英文,阿拉伯语,孟加拉,中文,荷兰语,法语,德语,印地文,印尼,意大利,日语,马拉松,葡萄牙语,俄语,西班牙文,斯瓦希里,泰米尔,泰卢固语,土耳其,乌尔都语。
+
 # 目标是使用 ReactJS，React Native 和 Python 构建许多移动，桌面和 Web 应用程序。这个 WebApp 使用 Django 和 React 以及 typescript 和 Tailwind CSS。它将包括：
 
 # 投资组合应用程序
@@ -580,6 +586,8 @@ clientId:
 };
 
 # Dutch nl
+
+# Leerlingenjablonen: Sjablonen van deze website in twintig talen - Engels, Arabisch, Bengaals, Chinees, Nederlands, Frans, Duits, Hindi, Indonesisch, Italiaans, Japans, Marathi, Portugees, Russisch, Spaans, Swahili, Tamil, Telugu, Turks, Urdu.
 
 # Het doel is om een aantal Mobile, Desktop en Web Apps te bouwen met ReactJS, React Native en Python. Deze WebApp maakt gebruik van Django en React met typescript en Tailwind CSS. Het omvat:
 
@@ -725,6 +733,8 @@ clientId:
 
 # French fr
 
+# Apprénagements Modèles: Templates de ce site en vingt langues - Anglais, Arabe, Bengali, Chinois, Néerlandais, Français, Allemand, Hindi, Indonésien, Italien, Japonais, Marathi, Portugais, Russe, Espagnol, Swahili, Tamil, Telugu, Turc, Ourdou.
+
 # L’objectif est de créer un certain nombre d’applications mobiles, de bureau et Web avec ReactJS, React Native et Python. Cette WebApp utilise Django et React avec typescript et Tailwind CSS. Il comprendra :
 
 # Une demande de portefeuille
@@ -868,6 +878,8 @@ clientId:
 };
 
 # German de
+
+# Apprénagements Modèles: Templates de ce site en vingt langues - Anglais, Arabe, Bengali, Chinois, Néerlandais, Français, Allemand, Hindi, Indonésien, Italien, Japonais, Marathi, Portugais, Russe, Espagnol, Swahili, Tamil, Telugu, Turc, Ourdou.
 
 # Ziel ist es, eine Reihe von Mobil-, Desktop- und Web Apps mit ReaktyS zu erstellen, ein Natives und Python zu reagieren. Dieser WEBAP verwendet Django und reagiert mit Todescript und TailWind CSS. Es wird Folgendes gebucht werden:
 
@@ -1015,6 +1027,8 @@ clientId:
 
 # Hindi hi
 
+# शिक्षार्थी टेम्पलेट्स: इस वेबसाइट के टेम्पलेट बीस भाषाओं में - अंग्रेज़ी, अरबी, बंगाली, चीनी, डच, फ्रेंच, जर्मन, हिंदी, इन्डोनेशियाई, इतालवी, जापानी, मराठी, पुर्तगाली, रूसी, स्पैनिश, स्वाहिली, तमिल, तेलुगू, तुर्की, उर्दू
+
 # इसका उद्देश्य कई मोबाइल, डेस्कटॉप और वेब ऐप्स को रिएक्ट्स के साथ बनाना है, मूल और पायथन पर प्रतिक्रिया करता है। यह वेबपेज Django का उपयोग करता है और टाइप करें और टाइप करें CISWIND सीएसएस के साथ प्रतिक्रिया करता है। इसमें शामिल होगा:
 
 # एक पोर्टफोलियो अनुप्रयोग
@@ -1160,6 +1174,8 @@ clientId:
 };
 
 # Indonesian id
+
+# Peserta Belajar Lengan Kerja: Situs Template dari Situs ini dalam dua puluh bahasa - Bahasa Inggris, Arab, Bengali, Cina, Belanda, Prancis, Jerman, Hindi, Indonesia, Italia, Jepang, Marathi, Portugis, Rusia, Spanyol, Swahili, Tamil, Telugu, Turki, Urdu.
 
 # Tujuannya adalah untuk membangun sejumlah aplikasi mobile, desktop dan web dengan reaksaji, bereaksi asli dan python. Webapp ini menggunakan Django dan bereaksi dengan Typescript dan Tailwind CSS. Ini akan meliputi:
 
@@ -1308,6 +1324,8 @@ clientId:
 
 # Italian it
 
+# Tempi di Lenters: Modelli di questo sito in vento lingue - inglese, arabo, bengali, cinese, olandese, francese, tedesco, hindi, indonesiano, italiano, giapponese, marathi, portoghese, russo, spagnolo, swahili, tamil, Tagugu, turco, urdu.
+
 # L'obiettivo è quello di costruire una serie di applicazioni mobili, desktop e web con reactjs, reagiscono nativi e pitoni. Questo Webapp utilizza Django e reagire con i tipi di clip e tailwind CSS. Include:
 
 # Un'applicazione portfolio
@@ -1454,6 +1472,8 @@ clientId:
 };
 
 # Japanese ja
+
+# 学習者テンプレート：このウェブサイトのテンプレート - 2011 の言語で - 英語、アラビア語、ベンガル、中華料理、オランダ語、フランス語、ドイツ語、ヒンディー語、インドネシア語、イタリア語、日本、マラチ、ポルトガル語、ロシア語、スペイン語、スワヒリ、タミル、テルグ、トルコ語、ウルドゥー語。
 
 # 目的は、ReactJS を搭載した多数のモバイル、デスクトップ、Web アプリケーションを構築することです。 このウェイバップは Django を使用し、Typescript と Tailwind CSS と反応します。 それは次のものを含みます
 
@@ -1602,6 +1622,8 @@ clientId:
 
 # Marathi mr
 
+# शिकणारे टेम्पलेट: वीस भाषा या टेम्पलेट्स टेम्पलेट्स - इंग्रजी, अरबी, बंगाली, चीनी, फ्रेंच, जर्मन, जर्मन, इंडोनेशियन, इटालियन, जपानी, मराठी, पोर्तुगीज, रशियन, स्पॅनिश, स्वाहिली, तामिळ, तेलगू, तुर्की, उर्दू.
+
 # उद्देश्य, मोबाइल डेस्कटॉप आणि वेब अॅप्स अ रीजेजसह तयार करणे, मूळ आणि पायथन प्रतिक्रिया देणे. हे वेबॅप्ज Djjog चा वापर करते आणि Thatscrist आणि Tailwind CSS सह प्रतिक्रिया देते. त्यात समाविष्ट होईल:
 
 # एक पोर्टफोलिओ अनुप्रयोग
@@ -1745,6 +1767,8 @@ clientId:
 };
 
 # Portuguese pt
+
+# Modelos de alunos: Modelos deste site em vinte idiomas - Inglês, Árabe, Bengali, Chinês, Holandês, Francês, Alemão, Hindi, Indonésio, Italiano, Japonês, Marathi, Português, Russo, Espanhol, Swahili, Tamil, Telugu, Turco, Urdu.
 
 # O objetivo é construir uma série de aplicativos móveis, desktop e web com reactjs, reative native and python. Este Webapp usa Django e reagir com o tipo de tela e o Tailwind CSS. Incluirá:
 
@@ -1892,6 +1916,8 @@ clientId:
 
 # Russian ru
 
+# Учащиеся шаблоны: шаблоны этого веб-сайта на двадцатых языках - английский, арабский, бенгали, китайский, голландский, французский, немецкий, хинди, индонезийский, итальянский, японский, марати, португальский, русский, испанский, суахили, тамил, телугу, турецкий, урду.
+
 # Цель состоит в том, чтобы создать ряд мобильных, рабочий стол и веб-приложений с ReactJS, реагировать нативным и питону. Эта веб-страница использует Django и реагирует с Typencript и Tailwind CSS. Он будет включать:
 
 # Портфельное приложение
@@ -2037,7 +2063,9 @@ clientId:
 "ARKjojd867g46kvryMoHyd3-Amteqpbuhtxw6WyP6EF0oW2HlKheCc9uFq_gKhaTYn9pJ77rMqlXsjEb",
 };
 
-#Spanish es
+# Spanish es
+
+# Plantillas de aprendizaje: Plantillas de este sitio web en veinte idiomas - inglés, árabe, bengalí, chino, holandés, francés, alemán, hindi, indonesio, italiano, japonés, marathi, portugués, ruso, español, swahili, tamil, telugu, turco, urdu.
 
 # El objetivo es construir una serie de aplicaciones móviles, escritorio y web con REACTJS, reaccionar nativos y python. Esta webApp utiliza Django y reacciona con tymscript y Ti-Airfind CSS. Incluirá:
 
@@ -2186,6 +2214,8 @@ clientId:
 
 # Swahili sw
 
+# Matukio ya Wanafunzi: Matukio ya tovuti hii katika lugha ishirini - Kiingereza, Kiarabu, Kibangali, Kichina, Kiholanzi, Kifaransa, Kijerumani, Kihindi, Kiindonesia, Kiitaliano, Kijapani, Kimarathi, Kireno, Kirusi, Kihispania, Kitamil, Kiteluli, Kituruki, Kituruki, Kiurdu, Kiurdu, Kiurdu, Kiurdu.
+
 # Lengo ni kujenga idadi ya programu za simu, desktop na mtandao na reactjs, kuitikia asili na python. WebApp hii inatumia Django na kuitikia na CyssScript na Tailwind CSS. Itakuwa ni pamoja na:
 
 # Maombi ya Portfolio
@@ -2332,6 +2362,8 @@ clientId:
 };
 
 # Tamil ta
+
+# கற்கும் வார்ப்புருக்கள்: இருபது மொழிகளில் இந்த வலைத்தளத்தின் வார்ப்புருக்கள் - ஆங்கிலம், அரபு, பெங்காலி, சீன, டச்சு, பிரஞ்சு, ஜெர்மன், ஹிந்தி, இந்தோனேசிய, இத்தாலிய, ஜப்பானிய, மராத்தி, போர்த்துகீசியம், ரஷியன், ஸ்பானிஷ், சுவாஹிலி, தமிழ், தெலுங்கு, துருக்கியம், உருது.
 
 # குறிக்கோள், மொபைல் மற்றும் டெபிஸ் போன்றவை, Reactjs உடன், சொந்த மற்றும் பைதான் செயல்படுகின்றன. இந்த வெபம்ப் டிஜாங்கோவைப் பயன்படுத்துகிறது மற்றும் நெடுவரிசை மற்றும் tailwind CSS உடன் செயல்படுகிறது. இது அடங்கும்:
 
@@ -2480,6 +2512,8 @@ clientId:
 
 # Telugu te
 
+# అభ్యాసకులు టెంప్లేట్లు: ఇరవై భాషలలో ఈ వెబ్సైట్ యొక్క టెంప్లేట్లు - ఇంగ్లీష్, అరబిక్, బెంగాలీ, చైనీస్, డచ్, ఫ్రెంచ్, జర్మన్, హిందీ, ఇండోనేషియన్, ఇటాలియన్, జపనీస్, మరాఠీ, పోర్చుగీస్, రష్యన్, స్పానిష్, స్వాహిలి, తమిళ, తెలుగు, టర్కిష్, ఉర్దూ.
+
 # లక్ష్యం ప్రతి ఇతర మొబైల్, డెస్క్టాప్ మరియు వెబ్ అనువర్తనాలను పునఃప్రారంభించి, స్థానిక మరియు పైథాన్ ప్రతిస్పందించడానికి లక్ష్యంగా ఉంది. ఈ వెబ్అప్ Django ను ఉపయోగిస్తుంది మరియు రకాలు మరియు tailwind CSS తో స్పందిస్తుంది. ఇది ఉంటుంది:
 
 # పోర్ట్ ఫోలియో అప్లికేషన్
@@ -2627,6 +2661,8 @@ clientId:
 
 # Turkish tr
 
+# Öğrenciler Şablonları: Bu sitenin ilk numarası ile Twinty Dil - Şili, İngilizce, Arapça, Bengali, Çin, Hollandaca, Fransızca, Almanca, Hintçe, Endonezya, İtalyanca, Japonca, Marathi, Portekizce, Rusça, İspanyolca, Swahili, Tamil, Telugu, Türk, Urdu.
+
 # Amaç, Reaktj'ler, bir yerden ve python'a tepki, bir masaüstü ve web uygulamaları oluşturmaktır. Bu webapp, Django'yu kullanır ve Tiplercript ve Tailwind CSS ile reaksiyona girer. Şunları içerecek:
 
 # Portfolyo Uygulaması
@@ -2773,6 +2809,8 @@ clientId:
 };
 
 # Urdu ur
+
+# سیکھنے والے سانچے: اس ویب سائٹ کے سانچے بیس زبانوں میں - انگریزی، عربی، بنگالی، چینی، ڈچ، فرانسیسی، جرمن، ہندی، انڈونیشیا، اطالوی، جاپانی، مراٹھی، پرتگالی، روسی، ہسپانوی، سواحلی، تامل، تیلگو، ترکی، اردو.
 
 # مقصد یہ ہے کہ REVICJ کے ساتھ کئی موبائل، ڈیسک ٹاپ اور ویب اطلاقات کی تعمیر، مقامی اور پادری کا رد عمل ہے. یہ ویبپ DJAGO کا استعمال کرتا ہے اور کس طرح Pracescript اور TailWind CSS کے ساتھ رد عمل کرتا ہے. اس میں شامل ہوں گے:
 

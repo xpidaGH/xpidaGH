@@ -15,7 +15,7 @@
     "@paypal/react-paypal-js": "^7.6.0",
     "@stripe/react-stripe-js": "^1.7.0",
     "@stripe/stripe-js": "^1.26.0",
-    "@supabase/supabase-js": "^1.35.2",
+    "@supabase/supabase-js": "^1.35.3",
     "@supabase/ui": "^0.36.5",
     "@testing-library/react": "^12.1.4",
     "@types/chec__commerce.js": "^2.8.5",

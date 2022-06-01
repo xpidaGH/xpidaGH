@@ -35,7 +35,7 @@ import Skills from "./portfolio/Skills";
 import Testimonials from "./portfolio/Testimonials";
 import HomeScreen from "./screens/HomeScreen";
 import Todos from "./todo1/Todos";
-import Tutor1 from "./tutorials/Tutor1";
+import Tutor2 from "./tutorials/Tutor2";
 import Counter from "./typescript1/Counter";
 import Video1 from "./videoAudio/Video1";
 import Audio1 from "./videoAudio/Audio1";
@@ -168,7 +168,7 @@ const App = (props: any) => {
                 <Route path="testimonials" element={<Testimonials />} />
                 <Route path="contact" element={<Contact />} />
                 <Route path="footer" element={<Footer />} />
-                <Route path="tutor1" element={<Tutor1 />} />
+                <Route path="tutor2" element={<Tutor2 />} />
                 <Route path="usefulLinks" element={<UsefulLinks />} />
                 <Route path="note" element={<Note />} />
                 <Route path="languages" element={<Languages />} />

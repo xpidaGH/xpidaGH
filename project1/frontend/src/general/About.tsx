@@ -34,11 +34,10 @@ export default function About() {
           </p>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 c">
-          <Carousel />
           <div className="text-center">
             <span className="text-xl text-indigo-900 font-extrabold mb-2 leading-tight">
               <NavLink
-                to="/tutor1"
+                to="/tutor2"
                 className="text-red-900 animate-pulse border-green-900 border-4"
               >
                 <FormattedMessage
@@ -48,6 +47,7 @@ export default function About() {
               </NavLink>{" "}
             </span>
           </div>
+          <Carousel />
           <div className="text-center">
             <p className="text-xl text-indigo-900 font-extrabold mb-2 px-2 leading-tight">
               <FormattedMessage

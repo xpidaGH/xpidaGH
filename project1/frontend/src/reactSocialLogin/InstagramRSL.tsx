@@ -14,7 +14,8 @@ import { FormattedMessage } from "react-intl";
 
 // import { ReactComponent as PinterestLogo } from "./assets/pinterest.svg";
 
-const REDIRECT_URI = "http://localhost:3000/account/login";
+const REDIRECT_URI = "https://7923-123-16-241-177.ap.ngrok.io/account/login";
+// const REDIRECT_URI = 'http://localhost:3000/account/login'
 
 const InstagramRSL = () => {
   const [provider, setProvider] = useState("");

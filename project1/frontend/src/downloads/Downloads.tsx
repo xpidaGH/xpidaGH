@@ -1,5 +1,4 @@
 import React from "react";
-import Languages from "../general/Languages";
 import { FormattedMessage } from "react-intl";
 
 function Downloads() {

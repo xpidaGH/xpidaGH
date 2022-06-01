@@ -8,7 +8,7 @@ const Hero = ({ merchant }: any) => {
       className=" bg-no-repeat bg-cover relative max-h-screen px-7 cursor-pointer  "
       style={{ backgroundImage: `url(${"/static/images/bg.jpg"})` }}
     >
-      <img src={"/static/images/logo.png"} alt="logo" />
+      <img src={"/static/images/logo.svg"} alt="logo" />
       <div className="text-orange-600">
         <h1 className=" text-4xl font-bold">{merchant.business_name}</h1>
         <a

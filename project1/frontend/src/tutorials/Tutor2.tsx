@@ -1008,16 +1008,7 @@ function Tutor2() {
   );
 
   return (
-    <div id="tutorial2" className="py-5 px-10 text-xl">
-      <section id="about">
-        <div className="container mx-auto flex p-1 md:flex-row flex-col items-left">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <p className="inline-flex items-center bg-teal-200 border-0 py-1 px-3 focus:outline-none hover:bg-teal-100 rounded text-base mt-4 md:mt-0">
-              Page 3 - Getting Started 2
-            </p>
-          </div>
-        </div>
-      </section>
+    <div id="tutor2" className="py-5 px-10 text-xl">
       <h1 className="mt-4 mb-4 title-font bg-green-600 font-bold text-white">
         Introduction
       </h1>
@@ -1096,14 +1087,14 @@ function Tutor2() {
           </tr>
           <tr>
             <td className="border border-lime-300 ...">
-              Install Python - verify with python --version and pip --version
+              Install Python - verify with python --version / pip --version
             </td>
             <td className="border border-lime-300 ...">Python.org</td>
           </tr>
           <tr>
             <td className="border border-lime-300 ...">
-              Install Node.js - verify version Node &gt;= 10.16 and npm &gt;=
-              5.6
+              Install and verify version of Node.js: Node &gt;= 10.16 / npm
+              &gt;= 5.6
             </td>
             <td className="border border-lime-300 ...">Nodejs.org</td>
           </tr>
@@ -1115,13 +1106,13 @@ function Tutor2() {
           </tr>
           <tr>
             <td className="border border-lime-300 ...">
-              Sign Up/In to a free GitHub account
+              Sign up or in to a free account on GitHub
             </td>
             <td className="border border-lime-300 ...">github.com</td>
           </tr>
           <tr>
             <td className="border border-lime-300 ...">
-              Sign Up/In to a free Netlify account
+              Sign up or in to a free account on Netlify
             </td>
             <td className="border border-lime-300 ...">netlify.com</td>
           </tr>
@@ -1132,7 +1123,7 @@ function Tutor2() {
       </h1>
       <ol className="list-decimal">
         <li>
-          Open the Command Line on Windows, Terminal on Mac, and Linux and
+          Open the Command Line on Windows, Terminal on Mac and Linux, and
           navigate to the directory where you want to store the project and
           create a new directory:
         </li>
@@ -1170,12 +1161,12 @@ function Tutor2() {
           </tbody>
         </table>
         <li>
-          Open the DjangoReactTT folder in VS Code (e.g. Launch VS Code --&gt;
-          File --&gt; Open Folder... )
+          Open the DjangoReactTT folder in VS Code (e.g. Launch VS Code, click
+          File, click Open Folder... )
         </li>
         <li>Create a Virtual environment:</li>
         <ul className="list-disc">
-          <li>For mac/unix users:</li>
+          <li>For Mac/Unix users:</li>
         </ul>
         <table id="203" className="mb-4 border-4 border-teal-200 ...">
           <thead>
@@ -1194,7 +1185,7 @@ function Tutor2() {
           </tbody>
         </table>
         <ul className="list-disc">
-          <li>For windows users:</li>
+          <li>For Windows users:</li>
         </ul>
         <table id="204" className="mb-4 border-4 border-teal-200 ...">
           <thead>
@@ -1212,9 +1203,9 @@ function Tutor2() {
             </tr>
           </tbody>
         </table>
-        <li>After creating the environment, activate it by running :</li>
+        <li>After creating the environment, activate it by running:</li>
         <ul className="list-disc">
-          <li>For mac/unix users:</li>
+          <li>For Mac/Unix users:</li>
         </ul>
         <table id="205" className="mb-4 border-4 border-teal-200 ...">
           <thead>
@@ -1233,7 +1224,7 @@ function Tutor2() {
           </tbody>
         </table>
         <ul className="list-disc">
-          <li>For windows users:</li>
+          <li>For Windows users:</li>
         </ul>
         <table id="206" className="mb-4 border-4 border-teal-200 ...">
           <thead>
@@ -1350,7 +1341,7 @@ function Tutor2() {
         </table>
         <li>
           Copy this URL: http://127.0.0.1:8000 and open it in any browser of
-          your choice. You should be able to see the Django Wellcome page.
+          your choice. You should be able to see the Django Welcome page.
         </li>
       </ol>
       <h1 className="mt-4 mb-4 title-font bg-green-600 font-bold text-white">
@@ -1358,9 +1349,9 @@ function Tutor2() {
       </h1>
       <ol className="list-decimal">
         <li>
-          Next, create the frontend react application in the current directory{" "}
-          <code>project1</code> that contains the <code>manage.py</code> file
-          with:
+          Next, use the code below to create the frontend react application in
+          the current directory that contains the file manage.py:{" "}
+          <code>project1</code>
         </li>
         <table id="212" className="mb-4 border-4 border-teal-200 ...">
           <thead>
@@ -1379,7 +1370,7 @@ function Tutor2() {
           </tbody>
         </table>
         <ul className="list-disc">
-          <li>or:</li>
+          <li>Alternatively:</li>
         </ul>
         <table id="213" className="mb-4 border-4 border-teal-200 ...">
           <thead>
@@ -1458,10 +1449,10 @@ function Tutor2() {
           </tbody>
         </table>
         <li>
-          Remove <code>/build</code> from the gitignore file since the backend
-          would need to make use of the <code>templates</code> and{" "}
-          <code>staticfiles</code> in the build folder. Now let's head to the
-          backend setup and connect it to the react application we just created.
+          Remove [/build] from the [gitignore] file since the backend would need
+          to make use of the [templates] and [staticfiles] in the build folder.
+          Now let's head to the backend setup and connect it to the React
+          application we just created.
         </li>
       </ol>
       <h1 className="mt-4 mb-4 title-font bg-green-600 font-bold text-white">
@@ -1507,14 +1498,14 @@ function Tutor2() {
           </tbody>
         </table>
         <li>
-          You must install both react-router-dom and @types/react-router-dom as
-          well as both rebass and @types/rebass while using react-typescript:
-          npm install --save redux react-redux redux-thunk
+          You must install both [react-router-dom] and [@types/react-router-dom]
+          as well as both [rebass] and [@types/rebass] while using
+          [react-typescript]: npm install --save redux react-redux redux-thunk
           redux-devtools-extension @types/rebass rebass @heroicons/react
           react-intl vuera axios @types/react@latest chokidar string-strip-html
           emailjs-com react-paginate react-syntax-highlighter web-vitals
           @types/react-dom @emailjs/browser react-router-dom
-          @types/react-router-dom (@types/ because we are using Typescript)
+          @types/react-router-dom ([@types] because we are using Typescript)
         </li>
         <table id="321" className="mb-4 border-4 border-teal-200 ...">
           <thead>
@@ -1624,13 +1615,13 @@ function Tutor2() {
           </tbody>
         </table>
         <li>
-          Make some changes to the <code>settings.py</code> file in the backend
-          project file so that the Django backend can recognize the react
-          application we created as the default frontend directory. Open up the{" "}
-          <code>settings.py</code> file and make the following changes:
+          Make some changes to the [settings.py] file in the backend project
+          file so that the Django backend can recognize the React application we
+          created as the default frontend directory. Open up the [settings.py]
+          file and make the following changes:
         </li>
         <ul className="list-disc">
-          <li>Import 'os' at the top of the file</li>
+          <li>Import [os] at the top of the file</li>
         </ul>
         <table id="218" className="mb-4 border-4 border-teal-200 ...">
           <thead>
@@ -1650,9 +1641,9 @@ function Tutor2() {
         </table>
         <ul className="list-disc">
           <li>
-            Then configure the TEMPLATES = [ directory by pointing it towards
-            the build folder in our frontend react directory:<br></br>'DIRS':
-            [os.path.join(BASE_DIR, 'frontend', 'build')],
+            Then configure the TEMPLATES directory by pointing it towards the
+            build folder in our frontend React directory: TEMPLATES = [{" "}
+            <br></br>'DIRS': [os.path.join(BASE_DIR, 'frontend', 'build')],
           </li>
         </ul>
         <table id="219" className="mb-4 border-4 border-teal-200 ...">
@@ -1673,7 +1664,7 @@ function Tutor2() {
         </table>
         <li>
           We need to configure the static files directory as well; add this line
-          to the bottom of the page below the STATIC_URL line.
+          to the bottom of the page below the line: STATIC_URL
         </li>
         <table id="220" className="mb-4 border-4 border-teal-200 ...">
           <thead>
@@ -1692,8 +1683,8 @@ function Tutor2() {
           </tbody>
         </table>
         <li>
-          Create a simple view (app) called <code>core</code> that will display
-          our default react page.
+          Create a simple view (app) that will display our default React page
+          named: <code>core</code>
         </li>
         <table id="221" className="mb-4 border-4 border-teal-200 ...">
           <thead>
@@ -1712,12 +1703,12 @@ function Tutor2() {
           </tbody>
         </table>
         <li>
-          Add the new app "core" to the end of "INSTALLED APPS" section in your
-          settings.py file: <code className="text-bold text-3xl">'core',</code>
+          Add the new app [core] to the end of the section: INSTALLED APPS,
+          [settings.py] <code className="text-bold text-3xl">'core',</code>
         </li>
         <li>
-          Open the ~/core/views.py file and create a simple function-based view
-          that just renders our page.
+          Create a simple function-based view that just renders our page in the
+          file: ~/core/views.py
         </li>
         <table id="222" className="mb-4 border-4 border-teal-200 ...">
           <thead>
@@ -1736,9 +1727,9 @@ function Tutor2() {
           </tbody>
         </table>
         <li>
-          Then we map the created view to a URL in our urls.py file in the
-          project1 folder: project1\project1\urls.py . We import the "front"
-          view function from the core app and we map it to the default URL " ".
+          project1\project1\urls.py In this file, we map the created view to a
+          URL. We import the "front" view function from the core app and we map
+          it to the default URL " ".
         </li>
         <table id="223" className="mb-4 border-4 border-teal-200 ...">
           <thead>
@@ -1759,8 +1750,8 @@ function Tutor2() {
         <li>
           {" "}
           To test the current state of the application again, Save All files
-          after modifying project1, make sure you are at the frontend (cd
-          project1/frontend) and run:
+          after modifying [project1], make sure you are at the frontend [cd
+          project1/frontend] and run:
         </li>
         <table id="316x2" className="mb-4 border-4 border-teal-200 ...">
           <thead>
@@ -1779,7 +1770,8 @@ function Tutor2() {
           </tbody>
         </table>
         <li>
-          then return to the project1 directory that contains the manage.py file
+          Then return to the [project1] directory that contains the file
+          [manage.py]
         </li>
         <table id="317x2" className="mb-4 border-4 border-teal-200 ...">
           <thead>
@@ -1799,7 +1791,7 @@ function Tutor2() {
         </table>
         <li>
           Run the server - activate the virtual environment from the root folder
-          (.\env\Scripts\activate), if not already activated, cd project1 and
+          if not already activated [.\env\Scripts\activate], [cd project1] and
           run:
         </li>
         <table id="224" className="mb-4 border-4 border-teal-200 ...">
@@ -1821,30 +1813,30 @@ function Tutor2() {
         <li>Reload the page in your browser and observe the following:</li>
         <ul className="list-disc">
           <li>
-            You see the <code>REACT</code> page we saw earlier but the URL is
-            now http://127.0.0.1:8000.
+            You see the REACT page we saw earlier but the URL is now
+            http://127.0.0.1:8000.
           </li>
         </ul>
         <ul className="list-disc">
           <li>
-            We have successfully connected our Django backend to a react
+            We have successfully connected our Django backend to a React
             frontend.
           </li>
           <li>
-            In index.html comment out '&lt;link rel="icon"
-            href="%PUBLIC_URL%/favicon.ico" /&gt;' and '&lt;link rel="manifest"
+            index.html comment out '&lt;link rel="icon"
+            href="%PUBLIC_URL%/favicon.ico" /&gt;', '&lt;link rel="manifest"
             href="%PUBLIC_URL%/manifest.json" /&gt;'. Then insert '&lt;link
-            rel="icon" href="/static/images/favicon.ico" /&gt;' and '&lt;link
-            rel="manifest" href="/static/images/manifest.json" /&gt;'
-            respectively so that the favicon and manifest will be loaded from
-            the static folder [create ~/public/static/images directory and move
-            icon and manifest to static folder].
+            rel="icon" href="/static/images/favicon.ico" /&gt;', '&lt;link
+            rel="manifest" href="/static/images/manifest.json" /&gt;' Move the
+            favicon and manifest to a static folder that you create in the
+            public folder so that they will be loaded from there
+            [~/public/static/images]
           </li>
         </ul>
         <ul className="list-disc">
           <li>
-            You will need the Django REST framework to create the APIs the react
-            frontend application will make use of to get backend data.
+            You will need the [Django REST] framework to create the [APIs] the
+            React frontend application will make use of to get backend data.
           </li>
         </ul>
       </ol>
@@ -1856,21 +1848,21 @@ function Tutor2() {
           You can create your frontend directory outside the Django directory.
           In that case, you'll need to get the path that points to the overall
           base directory that will hold both your backend and frontend
-          directories. Add this line below the BASEDIR variable at the top of
-          the settings.py file:
+          directories. Add this line below the [BASEDIR] variable at the top of
+          the [settings.py] file:
         </li>
         <SyntaxHighLighter language="javascript" style={dracula}>
           {"REAL_BASE_DIR = Path(__file__).resolve().parent.parent.parent"}
         </SyntaxHighLighter>
-        <p>to give:</p>
+        <p>Result:</p>
         <SyntaxHighLighter language="javascript" style={dracula}>
           {
             "import os\nfrom pathlib import Path\n\n# Build paths inside the project like this: BASE_DIR / 'subdir'.\nBASE_DIR = Path(__file__).resolve().parent.parent\n\n# Get the overall base directory path\nREAL_BASE_DIR = Path(__file__).resolve().parent.parent.parent"
           }
         </SyntaxHighLighter>
         <li>
-          Next, the new variable REAL_BASE_DIR will be used in the Templates and
-          Staticfiles sections.
+          Next, the new variable [REAL_BASE_DIR] will be used in the [Templates]
+          and [Staticfiles] sections.
         </li>
         <p>
           Templates: 'DIRS': [os.path.join(REAL_BASE_DIR, 'frontend', 'build')],
@@ -1902,7 +1894,7 @@ function Tutor2() {
       </h1>
       <ul className="list-disc">
         <li className="text-b0ld">
-          We are going to create a Notes App section of the frontend react
+          We are going to create a Notes App section of the frontend React
           application.
         </li>
       </ul>
@@ -1929,13 +1921,13 @@ function Tutor2() {
           created.
         </li>
         <li>
-          Inside the notes folder, create the following files: Notes.tsx and
+          Inside the notes folder, create the following files: Notes.tsx,
           List.tsx
         </li>
         <li>
-          To make requests to the API endpoints on the Django backend server, we
-          will need a JavaScript library called axios. Make sure it is installed
-          or install it using npm:
+          To make requests to the [API] endpoints on the Django backend server,
+          we will need a JavaScript library called [axios]. Make sure it is
+          installed or install it using [npm]:
         </li>
         <table id="302" className="mb-4 border-4 border-teal-200 ...">
           <thead>
@@ -1954,9 +1946,8 @@ function Tutor2() {
           </tbody>
         </table>
         <li>
-          Next, open the package.json file and add the proxy for running the
-          Django backend (http://localhost:8000) below the "private": true, line
-          so it ends up like
+          [package.json] Next, add the proxy for running the Django backend
+          (http://localhost:8000) below this line: "private": true,
         </li>
         <table id="303" className="mb-4 border-4 border-teal-200 ...">
           <thead>
@@ -1977,12 +1968,12 @@ function Tutor2() {
         <ul className="list-disc">
           <li>
             This will make it possible for you to use relative paths when you
-            are making the API requests. Instead of making use of
-            http://localhost:8000/notes/ you can simply make use of /notes/.
+            are making the [API] requests. Instead of making use of
+            [http://localhost:8000/notes/] you can simply make use of [/notes/]
           </li>
         </ul>
         <li>
-          List.tsx: Let's start with the List component. We won't be doing much
+          [List.tsx] Let's start with the List component. We won't be doing much
           here yet, we just need to simply declare and export the function.
         </li>
         <table id="304" className="mb-4 border-4 border-teal-200 ...">
@@ -2021,9 +2012,9 @@ function Tutor2() {
         <ul className="list-disc">
           <li>
             Let us discuss the above coding. You don't have to copy and paste
-            these sections again. First we import the required hooks; useState
-            and useEffect. We also need to import axios and the List component
-            we created before.
+            these sections again. First we import the required hooks; [useState]
+            and [useEffect]. We also need to import [axios] and the List
+            component we created before.
           </li>
           <table id="306" className="mb-4 border-4 border-teal-200 ...">
             <thead>
@@ -2043,10 +2034,10 @@ function Tutor2() {
           </table>
           <li>
             useState: Next, we create the Note function in which we will make
-            use of the useState hook. In the first line, we declare the state
-            variable as notes with an initial state of null. The second line is
-            to handle the state of the form data. Here we declare the state
-            variable as formNote with empty strings as its initial state.
+            use of the [useState] hook. In the first line, we declare the state
+            variable as [notes] with an initial state of [null]. The second line
+            is to handle the state of the form data. Here we declare the state
+            variable as [formNote] with empty strings as its initial state.
           </li>
           <table id="307" className="mb-4 border-4 border-teal-200 ...">
             <thead>
@@ -2066,12 +2057,12 @@ function Tutor2() {
           </table>
           <li>
             Please note that every other function created below should be inside
-            the Note function above.
+            the [Note] function above.
           </li>
           <li>
-            useEffect: We'll also use the useEffect hook, so that the getNotes
-            function executes right after the render has been displayed on the
-            screen.
+            useEffect: We'll also use the [useEffect] hook, so that the
+            [getNotes] function executes right after the render has been
+            displayed on the screen.
           </li>
           <table id="308" className="mb-4 border-4 border-teal-200 ...">
             <thead>
@@ -2096,15 +2087,15 @@ function Tutor2() {
             never needs to be re-run.
           </li>
           <li>
-            GET API function where we are declaring the request method type as
-            GET and then passing the relative path /notes/ as the URL. If we had
-            not added the proxy "http://localhost:8000" to the package.json
-            file. We would need to declare the URL here as
-            "http://localhost:8000/notes/". When the GET request is made with
-            axios, the data in the received response is assigned to the
-            setNewNotes function, and this updates the state variable notes with
-            a new state. Thus the value of the state variable changes from null
-            to the data in the received response. We also have the error
+            [GET API] function where we are declaring the request method type as
+            [GET] and then passing the relative path [/notes/] as the [URL]. If
+            we had not added the proxy "http://localhost:8000" to the
+            package.json file, we would need to declare the URL here as
+            "http://localhost:8000/notes/". When the [GET] request is made with
+            [axios], the data in the received response is assigned to the
+            [setNewNotes] function, and this updates the state variable notes
+            with a new state. Thus the value of the state variable changes from
+            null to the data in the received response. We also have the error
             handling function in case something goes wrong with the get request.
           </li>
           <table id="309" className="mb-4 border-4 border-teal-200 ...">
@@ -2124,20 +2115,21 @@ function Tutor2() {
             </tbody>
           </table>
           <li>
-            POST API function: Here we are declaring the request method type as
-            POST and then passing the relative path /notes/ as the URL. We also
-            have an additional field here data. This will contain the data which
-            we'll send to the backend for processing and storage in the
-            database. That is the data from the title and content inputs in the
-            form. When the POST request is made with Axios, we don't process the
-            response (remember that this was mentioned in part 2 when we were
-            setting up the POST API function); we just use the response function
-            to recall the getNotes function so that the previous notes can be
-            displayed together with the newly added note. After this, we reset
-            the form inputs to empty strings using the setFormNote function.
-            Then we also have to ensure that the form submission does not make
-            the page reload so we add the event.preventDefault function which
-            prevents the default action of the form submission.
+            [POST API] function: Here we are declaring the request method type
+            as POST and then passing the relative path [/notes/] as the [URL].
+            We also have an additional field here data. This will contain the
+            data which we'll send to the backend for processing and storage in
+            the database. That is the data from the title and content inputs in
+            the form. When the [POST] request is made with [Axios], we don't
+            process the response (remember that this was mentioned in part 2
+            when we were setting up the [POST API] function); we just use the
+            response function to recall the [getNotes] function so that the
+            previous notes can be displayed together with the newly added note.
+            After this, we reset the form inputs to empty strings using the
+            [setFormNote] function. Then we also have to ensure that the form
+            submission does not make the page reload so we add the
+            [event.preventDefault] function which prevents the default action of
+            the form submission.
           </li>
           <table id="310" className="mb-4 border-4 border-teal-200 ...">
             <thead>
@@ -2156,10 +2148,10 @@ function Tutor2() {
             </tbody>
           </table>
           <li>
-            DELETE API function: We create the function with an id parameter so
-            that we can pass the id of the particular note which we want to
-            delete as an argument later on. When the DELETE request is made with
-            Axios, we don't process the response as well; we just use the
+            [DELETE API] function: We create the function with an id parameter
+            so that we can pass the id of the particular note which we want to
+            delete as an argument later on. When the [DELETE] request is made
+            with [Axios], we don't process the response as well; we just use the
             response function to call the getNotes function so that the notes
             get method can get executed once again and we'll now see the
             remaining notes retrieved from the database.
@@ -2183,10 +2175,10 @@ function Tutor2() {
           <li>
             form input change: We need to ensure that the input is a controlled
             one, so we handle the changes with the code below. The function
-            monitors every single change in the form inputs and updates/delete
-            where necessary. Without this function, you won't see what you are
-            typing in the form input fields and the values of your input
-            elements won't change as well. We de-structure event.target to get
+            monitors every single change in the form inputs and updates or
+            delete where necessary. Without this function, you won't see what
+            you are typing in the form input fields and the values of your input
+            elements won't change as well. We de-structure [event.target] to get
             the value and name then we use the spread syntax to retain the value
             of the previous input and finally we assign a new value to the
             particular input being worked on.
@@ -2208,18 +2200,18 @@ function Tutor2() {
             </tbody>
           </table>
           <li>
-            return: Now we return the React elements to be displayed as the
-            output of the Note function. In the form, we add the input and text
-            area elements. Then we add the onChange event handler which calls
-            the handleChange function when we make any change to the input
-            fields. Then in the next line where we render the List component, we
-            need to first confirm that at least one single note was retrieved
-            from the database so that we don't pass null data to the List
-            component. If notes were actually retrieved with the GET function;
-            we pass the content of the data (id, title, content) and also the
-            delete function to the List component. Finally don't forget to
-            export the Note component so it can be used in the App.tsx file:{" "}
-            <code>export default Note;</code>
+            [return]: Now we return the React elements to be displayed as the
+            output of the [Note] function. In the form, we add the input and
+            text area elements. Then we add the [onChange] event handler which
+            calls the [handleChange] function when we make any change to the
+            input fields. Then in the next line where we render the [List]
+            component, we need to first confirm that at least one single note
+            was retrieved from the database so that we don't pass [null] data to
+            the [List] component. If notes were actually retrieved with the
+            [GET] function; we pass the content of the data ([id],
+            [title],[content]) and also the delete function to the [List]
+            component. Finally don't forget to export the [Note] component so it
+            can be used in the [App.tsx] file: <code>export default Note;</code>
           </li>
           <table id="313" className="mb-4 border-4 border-teal-200 ...">
             <thead>
@@ -2239,8 +2231,8 @@ function Tutor2() {
           </table>
         </ul>
         <li>
-          List.tsx: Now we have to go back to the List.tsx file to finish
-          creating the List component.
+          List.tsx: Now we have to go back to this file to finish creating the
+          List component.
         </li>
         <table id="314" className="mb-4 border-4 border-teal-200 ...">
           <thead>
@@ -2260,20 +2252,12 @@ function Tutor2() {
         </table>
         <ul className="list-disc">
           <li>
-            Here we access the data sent from the Note function using props;
-            which gives us access to the title, content and id of the note. We
-            pass the id to an onClick function which in turn calls the delete
-            function in the Note function with id as the argument. Note: If you
-            pass the delete function into the onClick function directly, the
-            delete function will run automatically and delete all your notes. A
-            solution to this is to pass the delete function into a function
-            called by the onClick function just like we did above.
+            Here we access the data sent from the Note function using [props]; which gives us access to the title, content and id of the note. We pass the id to an [onClick] function which in turn calls the delete function in the Note function with id as the argument. Note: If you pass the delete function into the [onClick] function directly, the delete function will run automatically and delete all your notes. A solution to this is to pass the delete function into a function called by the [onClick] function just like we did above.
           </li>
         </ul>
         <li>
-          Create a folder in the src folder named homescreen and add a file
-          HomeScreen.tsx Now let us import the Note function into the
-          HomeScreen.tsx file.
+          Create a folder in the src folder named [homescreen] and add a file into which you import the Note function:
+          HomeScreen.tsx
         </li>
         <table id="315" className="mb-4 border-4 border-teal-200 ...">
           <thead>
@@ -2292,14 +2276,16 @@ function Tutor2() {
           </tbody>
         </table>
         <li>
-          Put import React from react; and import HomeScreen from
-          ./homescreen/HomeScreen; at the top of App.tsx Then import
-          HomeScreen.tsx into App.tsx after the first div tag as &lt;HomeScreen
-          /&gt;
-        </li>
+        App.tsx</li>
+        <ul className="list-disc">
+          <li>
+          Put the following at the top of the file: import React from react; import HomeScreen from ./homescreen/HomeScreen;
+          </li>
+        <li>Then insert [HomeScreen.tsx] after the first [div] tag as &lt;HomeScreen /&gt;</li>
+        </ul>
         <li>
           To test the current state of the application, make sure you are at the
-          frontend (cd project1/frontend) and run:
+          frontend [cd project1/frontend] and run:
         </li>
         <table id="316" className="mb-4 border-4 border-teal-200 ...">
           <thead>
@@ -2318,7 +2304,7 @@ function Tutor2() {
           </tbody>
         </table>
         <li>
-          then return to the project1 directory that contains the manage.py file
+          Then return to the project1 directory that contains the manage.py file
         </li>
         <table id="317" className="mb-4 border-4 border-teal-200 ...">
           <thead>
